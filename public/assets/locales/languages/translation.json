@@ -15,6 +15,11 @@
         "ru": "Контактный центр",
         "en": "Contact Center"
     },
+    "SocialMedia": {
+        "uz": "Ijtimoiy Tarmoqlar",
+        "ru": "Сосиал Медиа",
+        "en": "Social Media"
+    },
     "address": {
         "uz": "Manzil",
         "ru": "Адрес",
@@ -713,9 +718,9 @@
     },
     "SuvBolimlari2": {
         "name": {
-            "uz": "Uchastka boshlig‘i Ubaydullaev Davron Raxmatullaevich",
-            "en": "The head of the department is Ubaydullaev Davron Rakhmatullaevich",
-            "ru": "Заведующий отделением Убайдуллаев Даврон Рахматуллаевич"
+            "uz": "Uchastka boshlig‘i Ismoilov Sadriddin Isomiddinovich",
+            "en": "The head of the department is Ismoilov Sadriddin Isomiddinovich",
+            "ru": "Заведующий отделением Исмоилов Садирдин Исомиддинович"
         },
         "address": {
             "uz": "Uchko‘prik tumani Sariqo‘rg‘on qishlog‘i",

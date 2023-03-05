@@ -23,8 +23,8 @@ const Section3Home = () => {
                         <div className='sta-item text-center'>
                             <BrowserUpdatedIcon sx={{ fontSize: "60px", marginBottom: "20px" }} />
                             <div className='sta-number-text'>
-                                <h3>50</h3>
-                                <p>Quis aliquet in a enim ipsum non sodales.</p>
+                                <h3>20</h3>
+                                <p>Jami kanallarimiz soni</p>
                             </div>
                         </div>
                     </div>
@@ -32,8 +32,8 @@ const Section3Home = () => {
                         <div className='sta-item text-center'>
                             <GroupIcon sx={{ fontSize: "60px", marginBottom: "20px" }} />
                             <div className='sta-number-text'>
-                                <h3>23</h3>
-                                <p>Quis aliquet in a enim ipsum non sodales.</p>
+                                <h3>138</h3>
+                                <p>Jami ishchilar soni.</p>
                             </div>
                         </div>
                     </div>
@@ -41,8 +41,8 @@ const Section3Home = () => {
                         <div className='sta-item text-center'>
                             <ComputerIcon sx={{ fontSize: "60px", marginBottom: "20px" }} />
                             <div className='sta-number-text'>
-                                <h3>36</h3>
-                                <p>Quis aliquet in a enim ipsum non sodales.</p>
+                                <h3>16</h3>
+                                <p>Jami kompyuter soni</p>
                             </div>
                         </div>
                     </div>
@@ -50,8 +50,8 @@ const Section3Home = () => {
                         <div className='sta-item text-center'>
                             <BusinessCenterIcon sx={{ fontSize: "60px", marginBottom: "20px" }} />
                             <div className='sta-number-text'>
-                                <h3>290</h3>
-                                <p>Quis aliquet in a enim ipsum non sodales.</p>
+                                <h3>327</h3>
+                                <p>Jami gidrotexnik inshoatlar soni.</p>
                             </div>
                         </div>
                     </div>

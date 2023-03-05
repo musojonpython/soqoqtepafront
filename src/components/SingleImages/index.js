@@ -6,7 +6,7 @@ const SingleImages = () => {
     return (
         <Container>
                 <SRLWrapper>
-                    <a href={"/img/rah2.png"}>
+            <a href={"/img/rah2.png"}>
                         <img src={"/img/rah2.png"} alt="Umbrella"/>
                     </a>
                    

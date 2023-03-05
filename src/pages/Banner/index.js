@@ -4,7 +4,10 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import HomeIcon from '@mui/icons-material/Home';
 import { changeLang, setLang, getLang } from '../../helpers';
 import { useT } from '../../custom/hooks/useT';
-
+import FacebookIcon from '@mui/icons-material/Facebook';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 const language = [
   {
@@ -36,8 +39,8 @@ const Banner = () => {
 
   return (
     <section className='banner-section'>
+          
       <div className="container-fluid d-flex justify-content-between align-items-center">
-
         <div className='flag d-flex align-items-center'>
           <img src='/img/flag.jpg' alt='flag' />
           <font className='logo-title '>{t(`welcomeP.${lang}`)}</font>
@@ -46,7 +49,6 @@ const Banner = () => {
         <div className='ummmm d-flex align-items-center'>
           <div className='logo d-flex align-items-center'>
             <img src='/logo.png' alt='logo' />
-            {/* <font className='logo-title w-50'>{t(`tName.${lang}`)}</font> */}
           </div>
           <div className='d-flex flex-column mx-3'>
             <div className='phone d-flex align-items-center d-none d-lg-flex'>
@@ -56,6 +58,7 @@ const Banner = () => {
                 <h6><a className='text-decoration-none' href="tel: +998 73 542 21 28">+998 73 542 21 28</a></h6>
               </div>
             </div>
+           
             <div className='address d-flex align-items-center d-none d-lg-flex'>
               <HomeIcon className='icon' sx={{ fontSize: 33 }} />
               <div className="m-2">
@@ -64,6 +67,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
+          
         <div className="dropdown language" style={{ zIndex: "999898989898898" }}>
           <button className="btn btn-outline-primary dropdown-toggle text-uppercase" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             {getLang()}
@@ -79,9 +83,18 @@ const Banner = () => {
               ))
             }
           </ul>
+        </div>        
         </div>
+      </div>
+      <div className="container-fluid d-flex justify-content-between align-items-right">
+        <div className='d-flex flex-column mx-3'>
+          <div className='phone d-flex align-items-center d-none d-lg-flex'>
+              <a  href=''> <FacebookIcon style={{fontSize:'30px', marginRight:'20px'}} />  </a>
+              <a href=''> <InstagramIcon style={{fontSize:'30px', marginRight:'20px'}} />  </a>
+              <a href=''> <TelegramIcon style={{fontSize:'30px', marginRight:'20px'}} />  </a>
+              <a href=''> <YouTubeIcon style={{fontSize:'30px', marginRight:'20px'}} />  </a>
+          </div>
         </div>
-
       </div>
     </section>
   );

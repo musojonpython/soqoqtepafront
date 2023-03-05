@@ -8,5 +8,4 @@ export const request = axios.create({
         'Accept': 'application/json',
         'Accept-Language': getLang()
     }
-    // timeout: 10000,
 });

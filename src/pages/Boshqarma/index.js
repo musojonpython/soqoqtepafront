@@ -96,9 +96,9 @@ const Sidebar = () => {
                 <NavLink to="/boshqarma/markaziyAparat">
                   <CDBSidebarMenuItem className={setActiveClass("/boshqarma/markaziyAparat")} icon="cogs">{t(`Mapparat.${lang}`)}</CDBSidebarMenuItem>
                 </NavLink>
-                <NavLink to="/boshqarma/byudjetQonun">
+                {/* <NavLink to="/boshqarma/byudjetQonun">
                   <CDBSidebarMenuItem className={setActiveClass("/boshqarma/byudjetQonun")} icon="table">{t(`Byudjetto’g’risidagiqonunchilik.${lang}`)}</CDBSidebarMenuItem>
-                </NavLink>
+                </NavLink> */}
                 <NavLink to="/boshqarma/ochiqMalumotlar">
                   <CDBSidebarMenuItem className={setActiveClass("/boshqarma/ochiqMalumotlar")} icon="database">{t(`Ochiqma'lumotlar.${lang}`)}</CDBSidebarMenuItem>
                 </NavLink>

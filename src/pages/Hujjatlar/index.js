@@ -15,8 +15,6 @@ const Sidebar = () => {
   const { t, lang } = useT();
   const { pathname } = useLocation();
 
-  // active class qoshish funksiyasi
-
   const setActiveClass = (path) => {
     if(path === pathname){
       return "active"
@@ -45,9 +43,7 @@ const Sidebar = () => {
                 <NavLink to="/Hujjatlar/Farmonlar">
                   <CDBSidebarMenuItem className={setActiveClass('/Hujjatlar/Farmonlar')} icon="table">{t(`farmon.${lang}`)}</CDBSidebarMenuItem>
                 </NavLink>
-                {/* <NavLink to="/Hujjatlar/NormativHujjatlar">
-                  <CDBSidebarMenuItem className={setActiveClass('/Hujjatlar/NormativHujjatlar')} icon="folder-open">{t(`normative.${lang}`)}</CDBSidebarMenuItem>
-                </NavLink> */}
+            
                 <NavLink to="/Hujjatlar/Dasturlar">
                   <CDBSidebarMenuItem className={setActiveClass('/Hujjatlar/Dasturlar')} icon="table">{t(`dastur.${lang}`)}</CDBSidebarMenuItem>
                 </NavLink>

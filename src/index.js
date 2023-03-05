@@ -10,8 +10,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom';
-// import SingleImages from './components/SingleImages';
-
 
 i18n
   .use(initReactI18next)
@@ -19,8 +17,6 @@ i18n
   .use(HttpApi)
   .init({
     supportedLngs: ['en', 'ru', 'uz'],
-    // lng: "uz",
-    // fallbackLng: "uz",
     detection: {
       order: ['htmlTag', 'cookie', 'localStorage', 'path', 'subdomain'],
       caches: ['cookie']
@@ -28,7 +24,6 @@ i18n
     backend: {
       loadPath: "/assets/locales/languages/translation.json"
     },
-    // react: { useSuspense: false }
   });
 
 

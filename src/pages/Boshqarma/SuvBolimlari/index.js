@@ -4,56 +4,64 @@ import { useT } from '../../../custom/hooks/useT';
 
 const SuvBolimlari = () => {
     const { t, lang } = useT();
-    const [loading, isLoading] = useState();
+    // const [loading, isLoading] = useState();
 
     const datas = [
         {
             title: t(`SuvBolimlari1.title.${lang}`),
             name: t(`SuvBolimlari1.name.${lang}`),
             address: t(`SuvBolimlari1.address.${lang}`),
-            phone: '(97)-417-86-40'
+            phone: '(97)-417-86-40',
+            image: ('/img/mar.jpg')
         },
         {
             title: t(`SuvBolimlari2.title.${lang}`),
             name: t(`SuvBolimlari2.name.${lang}`),
             address: t(`SuvBolimlari2.address.${lang}`),
-            phone: '(97)-590-44-33'
+            phone: '(97)-590-44-33',
+            image: ('/img/sad.jpg')
         },
         {
             title: t(`SuvBolimlari3.title.${lang}`),
             name: t(`SuvBolimlari3.name.${lang}`),
             address: t(`SuvBolimlari3.address.${lang}`),
-            phone: '(90)-851-24-24'
+            phone: '(90)-851-24-24',
+            image: ('/img/mar.jpg')
         },
         {
             title: t(`SuvBolimlari4.title.${lang}`),
             name: t(`SuvBolimlari4.name.${lang}`),
             address: t(`SuvBolimlari4.address.${lang}`),
-            phone: '(91)-699-97-33'
+            phone: '(91)-699-97-33',
+            image: ('/img/ras.jpg')
         },
         {
             title: t(`SuvBolimlari5.title.${lang}`),
             name: t(`SuvBolimlari5.name.${lang}`),
             address: t(`SuvBolimlari5.address.${lang}`),
-            phone: '(90)-164-09-51'
+            phone: '(90)-164-09-51',
+            image: ('/img/shar.jpg')
         },
         {
             title: t(`SuvBolimlari6.title.${lang}`),
             name: t(`SuvBolimlari6.name.${lang}`),
             address: t(`SuvBolimlari6.address.${lang}`),
-            phone: '(90)-570-23-10'
+            phone: '(90)-570-23-10',
+            image: ('/img/mur.jpg')
         },
         {
             title: t(`SuvBolimlari7.title.${lang}`),
             name: t(`SuvBolimlari7.name.${lang}`),
             address: t(`SuvBolimlari7.address.${lang}`),
-            phone: '(90)-856-11-45'
+            phone: '(90)-856-11-45',
+            image: ('/img/xur.jpg')
         },
         {
             title: t(`SuvBolimlari8.title.${lang}`),
             name: t(`SuvBolimlari8.name.${lang}`),
             address: t(`SuvBolimlari8.address.${lang}`),
-            phone: '(99)-222-82-80'
+            phone: '(99)-222-82-80',
+            image: ('/img/umd.jpg')
         },
     ]
 
@@ -79,7 +87,7 @@ const SuvBolimlari = () => {
                             <div key={inx} className='col-12 col-md-10 mb-4 mx-auto'>
                                 <div className='row'>
                                     <div className='col-md-3'>
-                                        <img src='/img/rah1.png' width={'100%'} alt='image' />
+                                        <img src={item.image} width={'100%'} alt='image' />
                                     </div>
                                     <div className='col-md-9'>
                                         <Table striped bordered hover>
