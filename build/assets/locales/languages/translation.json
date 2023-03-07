@@ -835,6 +835,24 @@
             "ru": "Турксаройское управление водного хозяйства"
         }
     },
+    "SuvBolimlari9": {
+        "name": {
+            "uz": "Qo'qon gidrouzeli uchastkasi boshlig'i Atajonov Jahongir",
+            "en": "Atajonov Jahangir, head of the Kokan hydroelectric station section",
+            "ru": "Атажонов Джахангир, начальник участка Коканской ГЭС"
+        },
+        "address": {
+            "uz": "Qo'qon shahar Imom Buxoriy ko'chasi",
+            "en": "Imam Bukhari street, Kokan city",
+            "ru": "Улица Имама Бухари, город Кокан"
+        },
+        "title": {
+            "uz": "Qo'qon gidrouzeli uchastkasi",
+            "en": "Kokan hydroelectric section",
+            "ru": "Коканский гидроузел"
+        }
+    },
+    
     "Byudjetto’g’risidagiqonunchilik": {
         "uz": "Byudjet to’g’risidagi qonunchilik",
         "en": "Budget legislation",

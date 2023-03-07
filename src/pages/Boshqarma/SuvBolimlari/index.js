@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Table } from 'react-bootstrap';
 import { useT } from '../../../custom/hooks/useT';
 
 const SuvBolimlari = () => {
     const { t, lang } = useT();
-    // const [loading, isLoading] = useState();
 
     const datas = [
         {
@@ -12,7 +11,7 @@ const SuvBolimlari = () => {
             name: t(`SuvBolimlari1.name.${lang}`),
             address: t(`SuvBolimlari1.address.${lang}`),
             phone: '(97)-417-86-40',
-            image: ('/img/mar.jpg')
+            image: ('/img/maruf.jpg')
         },
         {
             title: t(`SuvBolimlari2.title.${lang}`),
@@ -63,6 +62,13 @@ const SuvBolimlari = () => {
             phone: '(99)-222-82-80',
             image: ('/img/umd.jpg')
         },
+        {
+            title: t(`SuvBolimlari9.title.${lang}`),
+            name: t(`SuvBolimlari9.name.${lang}`),
+            address: t(`SuvBolimlari9.address.${lang}`),
+            phone: '(99)-222-82-80',
+            image: ('/img/joh.jpg')
+        }
     ]
 
     return (

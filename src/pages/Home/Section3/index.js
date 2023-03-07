@@ -55,6 +55,15 @@ const Section3Home = () => {
                             </div>
                         </div>
                     </div>
+                    {/* <div className='col-sm-6 col-md-4 col-lg-3 mb-4'>
+                        <div className='sta-item text-center'>
+                            <BusinessCenterIcon sx={{ fontSize: "60px", marginBottom: "20px" }} />
+                            <div className='sta-number-text'>
+                                <h3>8</h3>
+                                <p>Jami Suv yo'naltiruvchi dambalar soni.</p>
+                            </div>
+                        </div>
+                    </div> */}
                     
                 </div>
             </div>

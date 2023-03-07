@@ -7,7 +7,7 @@ import { STATISTICS_URL } from '../../../api/Urls';
 
 const Statistika = () => {
 
-    const [isLoading, setisLoading] = useState(true);
+    // const [isLoading, setisLoading] = useState(true);
     const [statistics, setStatistics] = useState([]);
     const { t, lang } = useT();
 
