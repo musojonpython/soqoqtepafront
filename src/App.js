@@ -18,7 +18,7 @@ import ElektronJamiyat from './pages/Boshqarma/ElektronJamiyat';
 import BoshIshOrnlari from './pages/Boshqarma/BoshIshOrnlari';
 import TenderlarTanlovlar from './pages/Boshqarma/TenderlarTanlovlar';
 import Tadbirlar from './pages/Boshqarma/Tadbirlar';
-import Hayat from './pages/Boshqarma/Hayat';
+// import Hayat from './pages/Boshqarma/Hayat';
 
 import News from './pages/Yangiliklar'
 import Yangiliklar from './pages/Yangiliklar/Yangiliklar';
@@ -111,7 +111,7 @@ function App() {
             <Route path='raxbariyat' element={<Rahbariyat />} />
             <Route path='boshqarmaNizomi' element={<BoshqarmaNizomi />} />
             <Route path='boshqarmaTuzilmasi' element={<BoshqarmaTuzilmasi />} />
-            <Route path='hayat' element={<Hayat />} />
+            {/* <Route path='hayat' element={<Hayat />} /> */}
             <Route path='suvBolimlari' element={<SuvBolimlari />} />
             <Route path='markaziyAparat' element={<MarkaziyApparat />} />
             <Route path='byudjetQonun' element={<ByudjetQonun />} />

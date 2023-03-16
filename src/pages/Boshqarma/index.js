@@ -1,27 +1,10 @@
 import React, { useState } from 'react';
-// import {
-//   CDBSidebar,
-//   CDBSidebarContent,
-//   CDBSidebarSubMenu,
-//   CDBSidebarHeader,
-//   CDBSidebarMenu,
-//   CDBSidebarMenuItem
-// } from 'cdbreact';
 import {
   CDBSidebar,
   CDBSidebarHeader,
   CDBSidebarMenuItem,
   CDBSidebarContent,
-  CDBSidebarMenu,
-  CDBSidebarSubMenu,
-  CDBSidebarFooter,
-  CDBBadge,
-  CDBContainer,
-  CDBDropDown,
-  CDBDropDownToggle,
-  CDBDropDownMenu,
-  CDBDropDownItem,
-  CDBLink,
+  CDBSidebarMenu
 } from 'cdbreact';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import { useT } from '../../custom/hooks/useT';
@@ -33,7 +16,6 @@ import PersonIcon from '@mui/icons-material/Person';
 const Sidebar = () => {
   const {pathname} = useLocation();
   const { t, lang } = useT();
-  const [active, setActive] = useState(false);
 
   // Navlink tanlanganda active class qo'shish funksiyasi
   const setActiveClass = (path) => {
@@ -72,9 +54,9 @@ const Sidebar = () => {
                 <NavLink to="/boshqarma/boshqarmaTuzilmasi">
                   <CDBSidebarMenuItem className={setActiveClass("/boshqarma/boshqarmaTuzilmasi")} icon="id-card">{t(`bTuzilmaTitle1.${lang}`)}</CDBSidebarMenuItem>
                 </NavLink>
-                <NavLink to="/boshqarma/hayat">
+                {/* <NavLink to="/boshqarma/hayat">
                   <CDBSidebarMenuItem className={setActiveClass("/boshqarma/hayat")} icon="users">{t(`Hayat.${lang}`)}</CDBSidebarMenuItem>
-                </NavLink>
+                </NavLink> */}
                 <Dropdown style={{ paddingLeft: "18px" }}>
                   <Dropdown.Toggle className={setActiveClass("/boshqarma/normativ")} style={{ fontWeight: "500", outline: "none", border: "none" }} variant="white" id="dropdown-basic">
                     <PersonIcon style={{ marginRight: "15px" }} /> {t(`yoshlargaOid.${lang}`)}
